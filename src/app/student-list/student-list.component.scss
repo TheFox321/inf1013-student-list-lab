@@ -1,0 +1,43 @@
+.student-container {
+  display: flex;
+  gap: 1em;
+  flex-flow: column nowrap;
+}
+
+.student-details {
+  flex: 1;
+}
+
+table.student-list {
+  border-collapse: collapse;
+  font-size: 18px;
+  color: white;
+  flex: 1;
+  min-width: 460px;
+
+  tr {
+    td, th {
+      padding: 0.5em 1em;
+      border: 1px solid black;
+    }
+
+    &.--selected {
+      background: darken(#007782, 3);
+    }
+  }
+
+
+
+  thead tr {
+
+    background: #353535;
+  }
+  tbody tr {
+    background: #029AA8;
+
+    &:hover {
+      background: #007782;
+    }
+  }
+
+}

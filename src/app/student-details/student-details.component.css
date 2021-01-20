@@ -1,0 +1,21 @@
+table.student-details-scores {
+  border-collapse: collapse;
+  font-size: 18px;
+  color: white;
+  flex: 2;
+}
+table.student-details-scores tr td, table.student-details-scores tr th {
+  padding: 0.5em 1em;
+  border: 1px solid black;
+}
+table.student-details-scores thead tr {
+  background: #353535;
+}
+table.student-details-scores tbody tr {
+  background: #029AA8;
+}
+table.student-details-scores tbody tr:hover {
+  background: #007782;
+}
+
+/*# sourceMappingURL=student-details.component.css.map */

@@ -1,0 +1,35 @@
+.student-container {
+  display: flex;
+  gap: 1em;
+  flex-flow: column nowrap;
+}
+
+.student-details {
+  flex: 1;
+}
+
+table.student-list {
+  border-collapse: collapse;
+  font-size: 18px;
+  color: white;
+  flex: 1;
+  min-width: 460px;
+}
+table.student-list tr td, table.student-list tr th {
+  padding: 0.5em 1em;
+  border: 1px solid black;
+}
+table.student-list tr.--selected {
+  background: #006973;
+}
+table.student-list thead tr {
+  background: #353535;
+}
+table.student-list tbody tr {
+  background: #029AA8;
+}
+table.student-list tbody tr:hover {
+  background: #007782;
+}
+
+/*# sourceMappingURL=student-list.component.css.map */

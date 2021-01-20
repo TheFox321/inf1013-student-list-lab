@@ -1,0 +1,26 @@
+table.student-details-scores {
+  border-collapse: collapse;
+  font-size: 18px;
+  color: white;
+  flex: 2;
+
+  tr {
+    td, th {
+      padding: 0.5em 1em;
+      border: 1px solid black;
+    }
+  }
+
+  thead tr {
+
+    background: #353535;
+  }
+  tbody tr {
+    background: #029AA8;
+
+    &:hover {
+      background: #007782;
+    }
+  }
+
+}

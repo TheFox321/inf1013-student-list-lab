@@ -1,0 +1,24 @@
+<h3>Liste des étudiants</h3>
+<div class="student-container">
+  <table class="student-list">
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>Prénom</th>
+      <th>Nom</th>
+      <th>Code Permanent</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let s of students" (click)="details.student = s">
+      <td>{{s.id}}</td>
+      <td>{{s.firstName}}</td>
+      <td>{{s.lastName}}</td>
+      <td>{{s.codePermanent}}</td>
+    </tr>
+    </tbody>
+  </table>
+
+  <h3>Résultats d'évaluations</h3>
+  <app-student-details #details class="student-details"></app-student-details>
+</div>

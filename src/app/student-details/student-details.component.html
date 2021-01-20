@@ -1,0 +1,14 @@
+<table class="student-details-scores">
+<thead>
+<tr>
+  <th>Évaluation</th>
+  <th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr *ngFor="let score of student.scores">
+  <td>{{score.name}}</td>
+  <td>{{score.value}}</td>
+</tr>
+</tbody>
+</table>
